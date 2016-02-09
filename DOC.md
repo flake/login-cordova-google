@@ -1,5 +1,5 @@
-<a name="Meteor.cordova_g_plus"></a>
-### Meteor.cordova_g_plus(request, callback)
+<a name="Meteor.loginCordovaGoogle"></a>
+### Meteor.loginCordovaGoogle(request, callback)
 **Kind**: Static method of <code>[Meteor](#Meteor)</code>  
 **Summary**: Function to call native google plus login only available in cordova apps
 
