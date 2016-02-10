@@ -46,7 +46,7 @@ Accounts.registerLoginHandler(function(req) {
                       // profile: googleResponse,
                       services: {
                           google: googleResponse
-                      }
+                      },
                       emails: [
                         {
                           "address": googleResponse["email"],
