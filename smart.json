@@ -1,8 +1,0 @@
-{
-    "packages": {
-        "flake:login-cordova-google": {
-            "git": "git@bitbucket.org:raj_cynosure/login-cordova-google.git",
-            "branch": "master"
-        }
-    }
-}
