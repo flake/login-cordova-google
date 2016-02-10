@@ -1,7 +1,8 @@
 Package.describe({
   name: "flake:login-cordova-google",
   summary: "Meteor Cordova Google Plus SignIn for Android/IOS App",
-  documentation: "README.md"
+  documentation: "README.md",
+  version: "0.1.1"
 });
 
 Cordova.depends({
