@@ -69,6 +69,11 @@ Accounts.registerLoginHandler(function(req) {
                     }
                 }
 
+                if(existUser.services.google.picture){
+                  existUser.profile.avatar = existUser.services.google.picture;
+                  existUser.profile.gplus = existUser.services.google.profile;
+                }
+
                 Meteor.users.remove({_id: existUser._id});
                 userId = Meteor.users.insert(existUser);
             } else throw new Meteor.Error(422, "AccessToken MISMATCH in flake:login-cordova-google");

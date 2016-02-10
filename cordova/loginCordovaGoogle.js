@@ -13,6 +13,12 @@
     * @param {Function} callback `callback` function can have one argument `error` which will be containing the details of error if any
     */
 
+    // support both (options, callback) and (callback).
+    // if (!callback && typeof request === 'function') {
+    //   callback = options;
+    //   options = {};
+    // }
+
    window.plugins.googleplus.login({
            offline: true
        },
