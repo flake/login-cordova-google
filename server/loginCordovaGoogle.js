@@ -1,5 +1,6 @@
 Accounts.registerLoginHandler(function(req) {
     check(req, {
+        cordova_google: Boolean,
         email: String,
         oAuthToken: String,
         profile: Match.Any,
